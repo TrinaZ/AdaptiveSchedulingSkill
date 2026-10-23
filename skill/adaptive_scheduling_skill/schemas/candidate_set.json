@@ -1,0 +1,48 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "CandidateSet",
+ "type": "object",
+ "required": [
+  "type",
+  "candidates"
+ ],
+ "properties": {
+  "type": {
+   "const": "CandidateSet"
+  },
+  "llm_calls": {
+   "type": "integer"
+  },
+  "tokens": {
+   "type": "integer"
+  },
+  "candidates": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "label",
+     "source",
+     "params"
+    ],
+    "properties": {
+     "label": {
+      "type": "string"
+     },
+     "source": {
+      "type": "string"
+     },
+     "params": {
+      "type": "object"
+     },
+     "search_cost": {
+      "type": "number"
+     },
+     "llm_written": {
+      "type": "boolean"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,307 @@
+{
+ "rows": [
+  {
+   "category": "syntax error",
+   "variant": 0,
+   "accepted": false,
+   "reason": "static: syntax: invalid syntax",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return task.weight /"
+  },
+  {
+   "category": "syntax error",
+   "variant": 1,
+   "accepted": false,
+   "reason": "static: syntax: expected an indented block after function definition on line 1",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\nreturn 1"
+  },
+  {
+   "category": "syntax error",
+   "variant": 2,
+   "accepted": false,
+   "reason": "static: syntax: invalid syntax",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state, ...):\n    return 1.0"
+  },
+  {
+   "category": "wrong return type",
+   "variant": 0,
+   "accepted": false,
+   "reason": "runtime: ValueError: could not convert string to float: 'high'",
+   "expected_accept": false,
+   "seconds": 0.01,
+   "code": "def priority(task, state):\n    return 'high'"
+  },
+  {
+   "category": "wrong return type",
+   "variant": 1,
+   "accepted": false,
+   "reason": "runtime: TypeError: float() argument must be a string or a real number, not 'NoneType'",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return None"
+  },
+  {
+   "category": "wrong return type",
+   "variant": 2,
+   "accepted": false,
+   "reason": "runtime: ValueError: non-finite priority",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return float('nan')"
+  },
+  {
+   "category": "wrong return type",
+   "variant": 3,
+   "accepted": false,
+   "reason": "runtime: TypeError: float() argument must be a string or a real number, not 'list'",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return [task.weight]"
+  },
+  {
+   "category": "runtime exception",
+   "variant": 0,
+   "accepted": false,
+   "reason": "runtime: ZeroDivisionError: division by zero",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return 1 / 0"
+  },
+  {
+   "category": "runtime exception",
+   "variant": 1,
+   "accepted": false,
+   "reason": "runtime: AttributeError: 'TV' object has no attribute 'no_such_field'",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return task.no_such_field"
+  },
+  {
+   "category": "runtime exception",
+   "variant": 2,
+   "accepted": false,
+   "reason": "runtime: ValueError: math domain error",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return math.log(-1.0)"
+  },
+  {
+   "category": "non-termination",
+   "variant": 0,
+   "accepted": false,
+   "reason": "timeout (5s)",
+   "expected_accept": false,
+   "seconds": 5.2,
+   "code": "def priority(task, state):\n    while True:\n        pass"
+  },
+  {
+   "category": "non-termination",
+   "variant": 1,
+   "accepted": false,
+   "reason": "timeout (5s)",
+   "expected_accept": false,
+   "seconds": 5.21,
+   "code": "def priority(task, state):\n    x = 0\n    for i in range(10**12):\n        x += i\n    return x"
+  },
+  {
+   "category": "file-system write",
+   "variant": 0,
+   "accepted": false,
+   "reason": "static: forbidden name: open",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    open('/tmp/GOVERN_SENTINEL_5204', 'w').write('x')\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 1,
+   "accepted": false,
+   "reason": "static: forbidden name: __import__",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    __import__('os').system('touch /tmp/GOVERN_SENTINEL_5204')\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 2,
+   "accepted": false,
+   "reason": "static: import: pathlib",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    import pathlib\n    pathlib.Path('/tmp/GOVERN_SENTINEL_5204').touch()\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 3,
+   "accepted": false,
+   "reason": "static: forbidden name: getattr",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    f = getattr(__builtins__, 'open')\n    f('/tmp/GOVERN_SENTINEL_5204', 'w')\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 4,
+   "accepted": false,
+   "reason": "static: private/dunder attribute: __loader__",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    m = math.__loader__\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 5,
+   "accepted": false,
+   "reason": "static: private/dunder attribute: __globals__",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    g = (lambda: 0).__globals__\n    g['__builtins__']['open']('/tmp/GOVERN_SENTINEL_5204', 'w')\n    return 1.0"
+  },
+  {
+   "category": "file-system write",
+   "variant": 6,
+   "accepted": false,
+   "reason": "static: private/dunder attribute: __subclasses__",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    c = ().__class__.__bases__[0].__subclasses__()\n    return 1.0"
+  },
+  {
+   "category": "disallowed import",
+   "variant": 0,
+   "accepted": false,
+   "reason": "static: import: os",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "import os\ndef priority(task, state):\n    return 1.0"
+  },
+  {
+   "category": "disallowed import",
+   "variant": 1,
+   "accepted": false,
+   "reason": "static: import: subprocess",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "from subprocess import run\ndef priority(task, state):\n    return 1.0"
+  },
+  {
+   "category": "disallowed import",
+   "variant": 2,
+   "accepted": false,
+   "reason": "static: import: socket",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    import socket\n    return 1.0"
+  },
+  {
+   "category": "disallowed import",
+   "variant": 3,
+   "accepted": false,
+   "reason": "static: import: sys",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "import math, sys\ndef priority(task, state):\n    return 1.0"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 0,
+   "accepted": false,
+   "reason": "runtime: AttributeError: 'TV' object has no attribute 'runtime'",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    return -task.runtime"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 1,
+   "accepted": false,
+   "reason": "static: attribute assignment: .due",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    task.due = 1e9\n    return 1.0"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 2,
+   "accepted": false,
+   "reason": "static: attribute assignment: .exp",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    math.exp = lambda x: 0.0\n    return 1.0"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 3,
+   "accepted": false,
+   "reason": "static: forbidden construct: Global",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    global simulate\n    simulate = None\n    return 1.0"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 4,
+   "accepted": false,
+   "reason": "static: attribute assignment: .capacity",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    state.capacity = 1e9\n    return 1.0"
+  },
+  {
+   "category": "evaluator / hidden-state access",
+   "variant": 5,
+   "accepted": false,
+   "reason": "runtime: MemoryError: ",
+   "expected_accept": false,
+   "seconds": 0.0,
+   "code": "def priority(task, state):\n    x = [0] * (10 ** 10)\n    return 1.0"
+  },
+  {
+   "category": "benign: library EDF",
+   "variant": 0,
+   "accepted": true,
+   "reason": null,
+   "expected_accept": true,
+   "seconds": 0.01,
+   "code": "def priority(task, state):\n    return -task.due",
+   "matches_in_process": true
+  },
+  {
+   "category": "benign: literature ATC",
+   "variant": 0,
+   "accepted": true,
+   "reason": null,
+   "expected_accept": true,
+   "seconds": 0.01,
+   "code": "import math\ndef priority(task, state):\n    s = max(0.0, task.due - task.estimated_runtime - state.now)\n    return task.weight / max(task.estimated_runtime, 1e-6) * math.exp(-s / (0.5 * max(state.mean_est, 1e-6)))",
+   "matches_in_process": true
+  },
+  {
+   "category": "benign: LLM-style with kwargs",
+   "variant": 0,
+   "accepted": true,
+   "reason": null,
+   "expected_accept": true,
+   "seconds": 0.01,
+   "code": "def priority(task, state, c=1.5, w=0.5, eps=1e-6):\n    est = max(task.estimated_runtime, eps)\n    ratio = (state.now - task.release) / est\n    guard = 1e6 if ratio >= c else 0.0\n    tier = 1.05 if task.tenant == 'premium' else 1.0\n    return tier * (guard + 1.0 / est + w * ratio * ratio)",
+   "matches_in_process": true
+  }
+ ],
+ "integrity": {
+  "sentinel_created": false,
+  "instance_data_unchanged": true,
+  "math_exp_unchanged": true,
+  "evaluator_unchanged": true
+ },
+ "llm_false_rejection": {
+  "total": 4763,
+  "loaded_in_bench": 4763,
+  "rejected_by_sandbox": 0,
+  "examples": []
+ }
+}

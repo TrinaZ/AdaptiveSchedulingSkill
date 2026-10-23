@@ -1,0 +1,57 @@
+[
+ {
+  "seed": 0,
+  "kngov_t": 9.08987786206357,
+  "kngov_eb": 21.832652276185446,
+  "deploys_t": 3,
+  "deploys_eb": 1,
+  "skill": 21.567616559482584,
+  "reselect": 29.097999604290692,
+  "ungated": 28.436293576984376,
+  "skill_deploys": 2
+ },
+ {
+  "seed": 1,
+  "kngov_t": 35.87509500982545,
+  "kngov_eb": 38.93349403930593,
+  "deploys_t": 2,
+  "deploys_eb": 0,
+  "skill": 31.259355358909165,
+  "reselect": 38.93349403930591,
+  "ungated": 50.58145257422287,
+  "skill_deploys": 4
+ },
+ {
+  "seed": 2,
+  "kngov_t": 90.9982117768131,
+  "kngov_eb": 91.25325325073065,
+  "deploys_t": 3,
+  "deploys_eb": 1,
+  "skill": 87.82430975377375,
+  "reselect": 107.78775106596808,
+  "ungated": 97.74052219601187,
+  "skill_deploys": 4
+ },
+ {
+  "seed": 3,
+  "kngov_t": 25.974670234503428,
+  "kngov_eb": 32.85240747299128,
+  "deploys_t": 5,
+  "deploys_eb": 2,
+  "skill": 31.7648638397173,
+  "reselect": 47.411255433296624,
+  "ungated": 39.419780938548186,
+  "skill_deploys": 5
+ },
+ {
+  "seed": 4,
+  "kngov_t": 48.85614164645375,
+  "kngov_eb": 69.20351487652576,
+  "deploys_t": 7,
+  "deploys_eb": 1,
+  "skill": 47.40733840404046,
+  "reselect": 73.19475707905225,
+  "ungated": 49.73511896533664,
+  "skill_deploys": 7
+ }
+]

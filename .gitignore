@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+*.key
+knowledge_store/
+logs/
+*.log
+.DS_Store
+code/trace/alibaba_trace_windows.csv*

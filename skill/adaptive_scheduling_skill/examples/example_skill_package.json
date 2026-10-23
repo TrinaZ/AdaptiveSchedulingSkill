@@ -1,0 +1,48 @@
+{
+ "type": "SkillPackage",
+ "rule_name": "EDF",
+ "rule_source": "def priority(task, state): return -task.due",
+ "params": {},
+ "change_type": "semantic",
+ "decision": "fallback",
+ "approval": null,
+ "evidence": {
+  "n": 200,
+  "tau": 0.02,
+  "delta": 0.05,
+  "gate": "t",
+  "library_means": {
+   "FIFO": 15.708503718315553,
+   "SPT": 15.834314471553299,
+   "LPT": 56.75989858656187,
+   "EDF": 3.632759852042218,
+   "WSJF": 13.388027024100484,
+   "ResourceEfficient": 19.72929503585994
+  },
+  "fallback": "EDF",
+  "candidates": [
+   {
+    "label": "ATC(k=1)",
+    "source_sha256": "246516abf0f9200a",
+    "candidate_mean": 4.472625437490442,
+    "upper_bound": 1.5833978783581897,
+    "passed": false
+   }
+  ]
+ },
+ "rollback_to": "WSJF",
+ "review_flag": true,
+ "provenance": {
+  "objective": "tard",
+  "llm_calls": 3,
+  "tokens": 0,
+  "prompt_sha256": [
+   "76d480fd0918761a",
+   "01a02e578a758c28",
+   "c83290402c625167"
+  ],
+  "created": "2026-10-16T20:54:49"
+ },
+ "version": 2,
+ "previous_version": 1
+}

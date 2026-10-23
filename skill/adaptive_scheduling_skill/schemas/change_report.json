@@ -1,0 +1,33 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ChangeReport",
+ "type": "object",
+ "required": [
+  "type",
+  "alarm",
+  "declared"
+ ],
+ "properties": {
+  "type": {
+   "const": "ChangeReport"
+  },
+  "alarm": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "declared": {
+   "type": "boolean"
+  },
+  "statistic": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "metric": {
+   "type": "string"
+  }
+ }
+}

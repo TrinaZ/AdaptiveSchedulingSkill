@@ -1,0 +1,83 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "DiagnoseInput",
+ "type": "object",
+ "required": [
+  "change_report",
+  "objective",
+  "reference_traffic",
+  "recent_traffic",
+  "search_traffic"
+ ],
+ "properties": {
+  "change_report": {
+   "$ref": "change_report.json"
+  },
+  "objective": {
+   "type": "string"
+  },
+  "reference_traffic": {
+   "type": "object",
+   "required": [
+    "scene",
+    "seed",
+    "n"
+   ],
+   "properties": {
+    "scene": {
+     "type": "string"
+    },
+    "seed": {
+     "type": "integer"
+    },
+    "n": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "recent_traffic": {
+   "type": "object",
+   "required": [
+    "scene",
+    "seed",
+    "n"
+   ],
+   "properties": {
+    "scene": {
+     "type": "string"
+    },
+    "seed": {
+     "type": "integer"
+    },
+    "n": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "search_traffic": {
+   "type": "object",
+   "required": [
+    "scene",
+    "seed",
+    "n"
+   ],
+   "properties": {
+    "scene": {
+     "type": "string"
+    },
+    "seed": {
+     "type": "integer"
+    },
+    "n": {
+     "type": "integer",
+     "minimum": 1
+    }
+   }
+  },
+  "headroom_threshold": {
+   "type": "number"
+  }
+ }
+}

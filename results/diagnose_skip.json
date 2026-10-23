@@ -1,0 +1,1722 @@
+[
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 0,
+  "headroom": 0.08508101249601618,
+  "llm_skill": 0.017372546605362502,
+  "expert": -0.08225058821094666,
+  "knowledge_tuned": 0.017372546605362502
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 1,
+  "headroom": 0.07487148120653253,
+  "llm_skill": -0.0184275623399536,
+  "expert": -0.07994471806206972,
+  "knowledge_tuned": -0.03770010646781451
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 2,
+  "headroom": 0.04885230975559518,
+  "llm_skill": 0.0,
+  "expert": -0.005165340842577765,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 3,
+  "headroom": 0.03837113212590482,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 4,
+  "headroom": 0.039999546071951775,
+  "llm_skill": -0.023670500256308395,
+  "expert": -0.0740347742783648,
+  "knowledge_tuned": -0.048323755978451864
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 5,
+  "headroom": 0.02988534090889905,
+  "llm_skill": 0.061204934727359876,
+  "expert": 0.0970866681847042,
+  "knowledge_tuned": 0.08251459845233455
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 6,
+  "headroom": 0.34686663388419126,
+  "llm_skill": 0.0,
+  "expert": -0.03616816199276164,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 7,
+  "headroom": 0.0013208930981353229,
+  "llm_skill": -0.01583982679692551,
+  "expert": 0.0,
+  "knowledge_tuned": -0.01583982679692551
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 8,
+  "headroom": 0.018919885069320408,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "S1_runtime_shift",
+  "seed": 9,
+  "headroom": 0.09520249612822984,
+  "llm_skill": 0.0,
+  "expert": -0.13259555681440346,
+  "knowledge_tuned": -0.11486412159331978
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 0,
+  "headroom": 0.210541139729698,
+  "llm_skill": -0.1644032314402083,
+  "expert": -0.1849697455856373,
+  "knowledge_tuned": -0.14501233217260737
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 1,
+  "headroom": 0.3412450789270881,
+  "llm_skill": -0.2259352039383307,
+  "expert": -0.29739424814671284,
+  "knowledge_tuned": -0.27837586347611604
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 2,
+  "headroom": 0.4151302580706965,
+  "llm_skill": -0.18740202699709388,
+  "expert": -0.2572224502127383,
+  "knowledge_tuned": -0.23656970640845196
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 3,
+  "headroom": 0.21764537795551142,
+  "llm_skill": 0.0,
+  "expert": -0.1655862830975277,
+  "knowledge_tuned": -0.17123429985002625
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 4,
+  "headroom": 0.189473284288042,
+  "llm_skill": -0.3002634162996201,
+  "expert": -0.2904813541920063,
+  "knowledge_tuned": -0.2926786479789461
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 5,
+  "headroom": 0.38302236012140933,
+  "llm_skill": -0.32070793331816444,
+  "expert": -0.3531154863707051,
+  "knowledge_tuned": -0.3138521789743387
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 6,
+  "headroom": 0.07424395359978919,
+  "llm_skill": -0.14995175275455372,
+  "expert": -0.24909160845978792,
+  "knowledge_tuned": -0.23791231594255036
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 7,
+  "headroom": 0.34247728291338564,
+  "llm_skill": -0.2919387715443201,
+  "expert": -0.32995725518472446,
+  "knowledge_tuned": -0.3127548539703809
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 8,
+  "headroom": 0.13890660578036373,
+  "llm_skill": -0.20075442851970832,
+  "expert": -0.23873649296706892,
+  "knowledge_tuned": -0.16402325743753052
+ },
+ {
+  "objective": "decay",
+  "scene": "S2_resource_drop",
+  "seed": 9,
+  "headroom": 0.06546903179017582,
+  "llm_skill": -0.10410863381953939,
+  "expert": -0.15078647067150747,
+  "knowledge_tuned": -0.13297583531825433
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 0,
+  "headroom": 0.19011404029806667,
+  "llm_skill": -0.1160772276511487,
+  "expert": -0.03604449867301878,
+  "knowledge_tuned": -0.08328965426918099
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 1,
+  "headroom": 0.1605630614008534,
+  "llm_skill": -0.10845486627401046,
+  "expert": -0.13419872219465015,
+  "knowledge_tuned": -0.07363066469302898
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 2,
+  "headroom": 0.1296239083891657,
+  "llm_skill": -0.07801399594219642,
+  "expert": 0.02500919957784032,
+  "knowledge_tuned": -0.14192421872658553
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 3,
+  "headroom": 0.06330048577293701,
+  "llm_skill": -0.08477386767388996,
+  "expert": -0.12876212870609727,
+  "knowledge_tuned": -0.12450303846339338
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 4,
+  "headroom": -0.0008010162882194916,
+  "llm_skill": -0.0967269525524087,
+  "expert": -0.10140360071028008,
+  "knowledge_tuned": -0.08732736817399246
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 5,
+  "headroom": 0.1270862133476217,
+  "llm_skill": -0.04746601199906028,
+  "expert": -0.048995462896636345,
+  "knowledge_tuned": 0.004139090787236311
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 6,
+  "headroom": 0.2053898346612304,
+  "llm_skill": -0.041799015066825984,
+  "expert": -0.0844667222673578,
+  "knowledge_tuned": -0.0686305891349145
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 7,
+  "headroom": 0.15960617207512828,
+  "llm_skill": -0.07866202219617503,
+  "expert": -0.11506328022390187,
+  "knowledge_tuned": -0.0976209154029317
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 8,
+  "headroom": 0.2921652960728943,
+  "llm_skill": -0.03164903305083078,
+  "expert": -0.10039471654814414,
+  "knowledge_tuned": -0.03164903305083078
+ },
+ {
+  "objective": "decay",
+  "scene": "S4_novel_task",
+  "seed": 9,
+  "headroom": 0.06482529747784471,
+  "llm_skill": -0.02457044650386259,
+  "expert": -0.05122285619362523,
+  "knowledge_tuned": -0.10992048168155658
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 0,
+  "headroom": 0.1028431425759957,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 1,
+  "headroom": 0.40465779053446405,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 2,
+  "headroom": 0.2717362604514997,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 3,
+  "headroom": 0.140622000898324,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 4,
+  "headroom": 0.05265901482689472,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 5,
+  "headroom": -0.03657542051188312,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 6,
+  "headroom": 0.0008964411350558255,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 7,
+  "headroom": 0.19540015519765863,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 8,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "decay",
+  "scene": "baseline",
+  "seed": 9,
+  "headroom": 0.20030786749845098,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 0,
+  "headroom": 0.005978559281667684,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 1,
+  "headroom": 0.057688597972337385,
+  "llm_skill": -0.015403308294836682,
+  "knowledge_tuned": -0.015403308294836682
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 2,
+  "headroom": 0.01411548226070003,
+  "llm_skill": -0.020464315586284285,
+  "knowledge_tuned": -0.017797014879183688
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 3,
+  "headroom": 0.008244688971261072,
+  "llm_skill": 0.01597200412563856,
+  "knowledge_tuned": 0.01597200412563856
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 4,
+  "headroom": 0.047276628040749946,
+  "llm_skill": 0.0,
+  "knowledge_tuned": -0.019262857565595985
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 5,
+  "headroom": 0.003321521227598878,
+  "llm_skill": -0.018417812585584194,
+  "knowledge_tuned": -0.018417812585584194
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 6,
+  "headroom": 0.03137245123573251,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 7,
+  "headroom": 0.022821794115169602,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 8,
+  "headroom": 0.0054980118484284635,
+  "llm_skill": 0.026173139697761375,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S1_runtime_shift",
+  "seed": 9,
+  "headroom": 0.022835110540944892,
+  "llm_skill": -0.02214511975390624,
+  "knowledge_tuned": -0.009154218975123208
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 0,
+  "headroom": 0.16804821872088138,
+  "llm_skill": -0.03018562344405637,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 1,
+  "headroom": 0.008588429886360882,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 2,
+  "headroom": 0.03112763569328414,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 3,
+  "headroom": 0.007494951858893262,
+  "llm_skill": 0.0376068442013888,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 4,
+  "headroom": 0.0958962922828075,
+  "llm_skill": -0.02356969122994719,
+  "knowledge_tuned": -0.020549299210160382
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 5,
+  "headroom": 0.05774441484942938,
+  "llm_skill": -0.048864831227298566,
+  "knowledge_tuned": -0.011223508355601312
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 6,
+  "headroom": 0.048715614954938924,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.01263941600267132
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 7,
+  "headroom": 0.02951021228265005,
+  "llm_skill": -0.0130907603400243,
+  "knowledge_tuned": 0.04607394455285448
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 8,
+  "headroom": 0.03188662879121673,
+  "llm_skill": -0.05162068730910582,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S2_resource_drop",
+  "seed": 9,
+  "headroom": 0.15196435555770638,
+  "llm_skill": 0.0041982701749757835,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 0,
+  "headroom": 0.1383574599126226,
+  "llm_skill": -0.07719649118512031,
+  "knowledge_tuned": -0.07617656844665324
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 1,
+  "headroom": 0.11655914017885405,
+  "llm_skill": 0.0,
+  "knowledge_tuned": -0.013112178221181872
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 2,
+  "headroom": 0.01574480358414243,
+  "llm_skill": 0.0,
+  "knowledge_tuned": -0.05782565028035405
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 3,
+  "headroom": 0.07816477038496894,
+  "llm_skill": -0.07388976499519463,
+  "knowledge_tuned": -0.08406485137429798
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 4,
+  "headroom": 0.03980779989020611,
+  "llm_skill": -0.03848743906105994,
+  "knowledge_tuned": 0.1565820267943602
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 5,
+  "headroom": 0.11601646330588156,
+  "llm_skill": -0.06143917452763932,
+  "knowledge_tuned": -0.09505758519856264
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 6,
+  "headroom": 0.08446657805845514,
+  "llm_skill": -0.08641352213144574,
+  "knowledge_tuned": -0.04731370868817341
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 7,
+  "headroom": -0.03518743113179945,
+  "llm_skill": 0.0007549315743456032,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 8,
+  "headroom": 0.1711873804312123,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "S4_novel_task",
+  "seed": 9,
+  "headroom": 0.07342099137948965,
+  "llm_skill": -0.04258215796332465,
+  "knowledge_tuned": 0.02801144172188021
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 0,
+  "headroom": 0.0028868428705559612,
+  "llm_skill": 0.0388740438363483,
+  "knowledge_tuned": 0.0388740438363483
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 1,
+  "headroom": 0.004366579734802145,
+  "llm_skill": 0.0,
+  "knowledge_tuned": -0.024371026478427295
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 2,
+  "headroom": 0.032886832274936606,
+  "llm_skill": 0.02313450398119643,
+  "knowledge_tuned": 0.013206598193668144
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 3,
+  "headroom": 0.003717215987791622,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 4,
+  "headroom": 0.008253494415461082,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.03536425809823594
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 5,
+  "headroom": 0.02552278491707527,
+  "llm_skill": 0.016687883285822595,
+  "knowledge_tuned": 0.016687883285822595
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 6,
+  "headroom": 0.009292311502771988,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0029320571489801026
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 7,
+  "headroom": 0.076019565221777,
+  "llm_skill": 0.02884089733421577,
+  "knowledge_tuned": 0.018970495908942
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 8,
+  "headroom": 0.0,
+  "llm_skill": 0.0055097236454840276,
+  "knowledge_tuned": 0.012207572009860878
+ },
+ {
+  "objective": "mix",
+  "scene": "baseline",
+  "seed": 9,
+  "headroom": 0.03450323942696598,
+  "llm_skill": -0.016068175875036242,
+  "knowledge_tuned": -0.01807353409010067
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 0,
+  "headroom": 0.44473235591959337,
+  "llm_skill": -0.10037739904533123,
+  "knowledge_tuned": 0.02584385597990356
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 1,
+  "headroom": 0.16547199479927488,
+  "llm_skill": 0.06543684395341261,
+  "knowledge_tuned": 0.06543684395341261
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 2,
+  "headroom": 0.026938471226998106,
+  "llm_skill": -0.04630555792901374,
+  "knowledge_tuned": -0.06354464787432458
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 3,
+  "headroom": 0.030477814560801342,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 4,
+  "headroom": 0.32766238273100734,
+  "llm_skill": 0.0,
+  "knowledge_tuned": -0.06727649317450372
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 5,
+  "headroom": 0.06359830419603774,
+  "llm_skill": -0.1979387151151262,
+  "knowledge_tuned": -0.030533313822336906
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 6,
+  "headroom": 0.2901694855914262,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 7,
+  "headroom": 0.2030248106664727,
+  "llm_skill": -0.08936059674681485,
+  "knowledge_tuned": -0.13485068373969644
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 8,
+  "headroom": 0.17285262751742192,
+  "llm_skill": 0.08122628305054777,
+  "knowledge_tuned": 0.08122628305054777
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S1_runtime_shift",
+  "seed": 9,
+  "headroom": -0.008301331651817012,
+  "llm_skill": -0.007474454626525375,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 0,
+  "headroom": 0.24277884614286438,
+  "llm_skill": -0.43059420821011096,
+  "knowledge_tuned": -0.011030499496844686
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 1,
+  "headroom": 0.4338186232927055,
+  "llm_skill": -0.07244262968741108,
+  "knowledge_tuned": -0.13149275305402688
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 2,
+  "headroom": 0.1951720823669867,
+  "llm_skill": -0.47662870004383795,
+  "knowledge_tuned": -0.10329831368773633
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 3,
+  "headroom": 0.5784744243158276,
+  "llm_skill": -0.49129163458069974,
+  "knowledge_tuned": -0.24202187279438678
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 4,
+  "headroom": -0.4584952705792811,
+  "llm_skill": -0.48750500744263375,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 5,
+  "headroom": 0.08808771324068121,
+  "llm_skill": -0.1641631017459569,
+  "knowledge_tuned": 0.004145602980038175
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 6,
+  "headroom": 0.30032740870941577,
+  "llm_skill": -0.581171751026924,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 7,
+  "headroom": 0.22762230566003838,
+  "llm_skill": -0.2262725505038574,
+  "knowledge_tuned": -0.18329991116439495
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 8,
+  "headroom": 0.2552828989495274,
+  "llm_skill": -0.19600644345271773,
+  "knowledge_tuned": -0.22127615328473768
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S2_resource_drop",
+  "seed": 9,
+  "headroom": 0.09656380098990458,
+  "llm_skill": -0.5863466104346233,
+  "knowledge_tuned": -0.3663434663425325
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 0,
+  "headroom": 0.2281798557560517,
+  "llm_skill": -0.22502836679315077,
+  "knowledge_tuned": -0.14207680367856382
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 1,
+  "headroom": 0.1637336201239724,
+  "llm_skill": -0.026193740172712275,
+  "knowledge_tuned": -0.14005491338013404
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 2,
+  "headroom": 0.1118379794282568,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 3,
+  "headroom": 0.24644471133170875,
+  "llm_skill": -0.0012761395725928142,
+  "knowledge_tuned": -0.09986700098495657
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 4,
+  "headroom": -0.05965154412592799,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 5,
+  "headroom": 0.2516393726648648,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0275011524462223
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 6,
+  "headroom": 0.11760635427239052,
+  "llm_skill": -0.02082467255741703,
+  "knowledge_tuned": -0.16997876226096065
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 7,
+  "headroom": 0.33531403431693185,
+  "llm_skill": 0.023279296775430114,
+  "knowledge_tuned": -0.2531302309817523
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 8,
+  "headroom": 0.29215665750721553,
+  "llm_skill": -0.09647904237414963,
+  "knowledge_tuned": -0.10656636869279529
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "S4_novel_task",
+  "seed": 9,
+  "headroom": 0.1494337576032796,
+  "llm_skill": -0.005060586539288231,
+  "knowledge_tuned": 0.17285475517995796
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 0,
+  "headroom": 1.0,
+  "llm_skill": 0.1070693684503173,
+  "knowledge_tuned": 0.1070693684503173
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 1,
+  "headroom": 1.0,
+  "llm_skill": -0.3769397066648478,
+  "knowledge_tuned": -0.3769397066648478
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 2,
+  "headroom": 0.5079527559644648,
+  "llm_skill": -0.8031310035731756,
+  "knowledge_tuned": -0.004408967860440876
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 3,
+  "headroom": 1.0,
+  "llm_skill": 1.3374769826403488,
+  "knowledge_tuned": 1.3374769826403488
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 4,
+  "headroom": 1.0,
+  "llm_skill": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 5,
+  "headroom": 0.0,
+  "llm_skill": -0.6876380333604102,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 6,
+  "headroom": 0.8252995846327932,
+  "llm_skill": -0.9379055287390071,
+  "knowledge_tuned": -1.0
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 7,
+  "headroom": 1.0,
+  "llm_skill": -0.43798418691296576,
+  "knowledge_tuned": -0.43798418691296576
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 8,
+  "headroom": 1.0,
+  "llm_skill": 0.6925156096285333,
+  "knowledge_tuned": 0.6925156096285333
+ },
+ {
+  "objective": "slo_wait",
+  "scene": "baseline",
+  "seed": 9,
+  "headroom": 0.13149236264475384,
+  "llm_skill": -0.5647361534031143,
+  "knowledge_tuned": -1.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 0,
+  "headroom": 0.1344537815126049,
+  "llm_skill": 0.061604584527220646,
+  "expert": -0.09598853868194832,
+  "knowledge_tuned": 0.061604584527220646
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 1,
+  "headroom": 0.046391752577319645,
+  "llm_skill": 0.0,
+  "expert": -0.05031446540880504,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 2,
+  "headroom": 0.11538461538461542,
+  "llm_skill": 0.0,
+  "expert": -0.046936114732724875,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 3,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 4,
+  "headroom": 0.05147058823529416,
+  "llm_skill": 0.0,
+  "expert": -0.05198776758409794,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 5,
+  "headroom": -0.019108280254777066,
+  "llm_skill": 0.036687631027253705,
+  "expert": 0.036687631027253705,
+  "knowledge_tuned": 0.036687631027253705
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 6,
+  "headroom": 0.31775700934579443,
+  "llm_skill": 0.0,
+  "expert": -0.21182943603851442,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 7,
+  "headroom": 0.058252427184465994,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 8,
+  "headroom": 0.015228426395939132,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "S1_runtime_shift",
+  "seed": 9,
+  "headroom": 0.10408921933085513,
+  "llm_skill": 0.0,
+  "expert": -0.027450980392156835,
+  "knowledge_tuned": -0.1320261437908497
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 0,
+  "headroom": 0.1806167400881058,
+  "llm_skill": -0.24546424759871935,
+  "expert": -0.04268943436499474,
+  "knowledge_tuned": -0.24546424759871935
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 1,
+  "headroom": 0.3109756097560976,
+  "llm_skill": -0.1926364234056543,
+  "expert": -0.27087442472057854,
+  "knowledge_tuned": -0.2531229454306378
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 2,
+  "headroom": 0.3798701298701299,
+  "llm_skill": -0.14408973252804133,
+  "expert": -0.22778257118205353,
+  "knowledge_tuned": -0.20534943917169976
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 3,
+  "headroom": 0.131782945736434,
+  "llm_skill": -0.07420091324200906,
+  "expert": -0.08789954337899543,
+  "knowledge_tuned": -0.06735159817351592
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 4,
+  "headroom": 0.10160427807486638,
+  "llm_skill": -0.20962199312714772,
+  "expert": -0.24192439862542958,
+  "knowledge_tuned": -0.2762886597938144
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 5,
+  "headroom": 0.3201320132013201,
+  "llm_skill": -0.3160621761658031,
+  "expert": -0.3367875647668394,
+  "knowledge_tuned": -0.334432406971267
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 6,
+  "headroom": 0.13736263736263732,
+  "llm_skill": -0.048944337811900274,
+  "expert": -0.20729366602687138,
+  "knowledge_tuned": -0.21785028790786948
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 7,
+  "headroom": 0.3138686131386861,
+  "llm_skill": -0.18056293149229957,
+  "expert": -0.3271375464684015,
+  "knowledge_tuned": -0.3345724907063197
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 8,
+  "headroom": -0.011494252873563093,
+  "llm_skill": -0.13577023498694507,
+  "expert": -0.15578764142732798,
+  "knowledge_tuned": -0.1923411662315056
+ },
+ {
+  "objective": "tiered",
+  "scene": "S2_resource_drop",
+  "seed": 9,
+  "headroom": 0.15107913669064743,
+  "llm_skill": -0.07894736842105259,
+  "expert": -0.11252268602540834,
+  "knowledge_tuned": -0.14609800362976408
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 0,
+  "headroom": 0.15644171779141103,
+  "llm_skill": -0.09540954095409536,
+  "expert": -0.016651665166516665,
+  "knowledge_tuned": -0.10171017101710168
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 1,
+  "headroom": 0.1289398280802292,
+  "llm_skill": -0.14859813084112142,
+  "expert": -0.17476635514018685,
+  "knowledge_tuned": -0.06214953271028023
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 2,
+  "headroom": 0.17412935323383083,
+  "llm_skill": -0.11886586695746999,
+  "expert": -0.04143947655398034,
+  "knowledge_tuned": -0.13631406761177758
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 3,
+  "headroom": 0.032994923857868064,
+  "llm_skill": -0.08561113976276438,
+  "expert": -0.048478597215059406,
+  "knowledge_tuned": -0.007735946364105208
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 4,
+  "headroom": 0.038535645472061564,
+  "llm_skill": -0.11080332409972293,
+  "expert": -0.07558369608231114,
+  "knowledge_tuned": -0.07835377918480405
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 5,
+  "headroom": 0.15068493150684936,
+  "llm_skill": -0.02833787465940056,
+  "expert": -0.03923705722070842,
+  "knowledge_tuned": 0.01580381471389649
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 6,
+  "headroom": 0.17910447761194026,
+  "llm_skill": -0.07142857142857131,
+  "expert": -0.10884353741496591,
+  "knowledge_tuned": -0.011661807580174887
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 7,
+  "headroom": 0.14984709480122316,
+  "llm_skill": -0.08478146392838337,
+  "expert": -0.13112164296998416,
+  "knowledge_tuned": -0.1095313322801474
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 8,
+  "headroom": 0.2727272727272727,
+  "llm_skill": -0.09203980099502494,
+  "expert": -0.06965174129353235,
+  "knowledge_tuned": -0.07898009950248758
+ },
+ {
+  "objective": "tiered",
+  "scene": "S4_novel_task",
+  "seed": 9,
+  "headroom": 0.06912442396313367,
+  "llm_skill": -0.020958083832335286,
+  "expert": -0.0497005988023952,
+  "knowledge_tuned": -0.05568862275449092
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 0,
+  "headroom": 0.05555555555555547,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 1,
+  "headroom": 0.3877551020408163,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 2,
+  "headroom": 0.2400000000000001,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 3,
+  "headroom": 0.05555555555555547,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 4,
+  "headroom": 0.03571428571428581,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 5,
+  "headroom": -0.039999999999999813,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 6,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 7,
+  "headroom": 0.25,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 8,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "tiered",
+  "scene": "baseline",
+  "seed": 9,
+  "headroom": 0.09375,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 0,
+  "headroom": 0.10000000000000009,
+  "llm_skill": 0.03999999999999997,
+  "expert": -0.02666666666666669,
+  "knowledge_tuned": 0.03999999999999997
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 1,
+  "headroom": 0.07792207792207795,
+  "llm_skill": 0.017391304347826025,
+  "expert": 0.06376811594202891,
+  "knowledge_tuned": 0.017391304347826025
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 2,
+  "headroom": 0.23333333333333328,
+  "llm_skill": 0.05714285714285713,
+  "expert": -0.13214285714285723,
+  "knowledge_tuned": 0.05714285714285713
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 3,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 4,
+  "headroom": 0.18867924528301894,
+  "llm_skill": 0.0,
+  "expert": -0.051369863013698634,
+  "knowledge_tuned": 0.030821917808219253
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 5,
+  "headroom": 0.0,
+  "llm_skill": -0.10624999999999996,
+  "expert": -0.2562499999999999,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 6,
+  "headroom": 0.19999999999999996,
+  "llm_skill": 0.0,
+  "expert": -0.09701492537313437,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 7,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 8,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S1_runtime_shift",
+  "seed": 9,
+  "headroom": 0.07594936708860756,
+  "llm_skill": 0.011278195488721764,
+  "expert": -0.026315789473684317,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 0,
+  "headroom": 0.09999999999999998,
+  "llm_skill": -0.26905829596412556,
+  "expert": -0.4237668161434978,
+  "knowledge_tuned": -0.16143497757847536
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 1,
+  "headroom": 0.2471910112359551,
+  "llm_skill": -0.11604584527220628,
+  "expert": -0.46704871060171915,
+  "knowledge_tuned": -0.05300859598853857
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 2,
+  "headroom": 0.07499999999999996,
+  "llm_skill": -0.25233644859813076,
+  "expert": -0.41121495327102797,
+  "knowledge_tuned": 0.09345794392523371
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 3,
+  "headroom": 0.13793103448275845,
+  "llm_skill": -0.17088607594936714,
+  "expert": -0.3143459915611814,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 4,
+  "headroom": 0.0660377358490567,
+  "llm_skill": -0.16744186046511633,
+  "expert": -0.3984496124031008,
+  "knowledge_tuned": 0.001550387596899302
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 5,
+  "headroom": 0.11290322580645173,
+  "llm_skill": -0.34965986394557824,
+  "expert": -0.5034013605442177,
+  "knowledge_tuned": -0.053061224489795944
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 6,
+  "headroom": 0.08108108108108103,
+  "llm_skill": -0.07076350093109865,
+  "expert": -0.41713221601489753,
+  "knowledge_tuned": -0.08193668528864051
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 7,
+  "headroom": 0.26271186440677974,
+  "llm_skill": -0.2703927492447129,
+  "expert": -0.5166163141993958,
+  "knowledge_tuned": -0.06646525679758301
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 8,
+  "headroom": 0.07894736842105265,
+  "llm_skill": -0.2646502835538752,
+  "expert": -0.3667296786389414,
+  "knowledge_tuned": -0.04914933837429114
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S2_resource_drop",
+  "seed": 9,
+  "headroom": 0.00746268656716409,
+  "llm_skill": -0.14992025518341306,
+  "expert": -0.5534290271132376,
+  "knowledge_tuned": -0.041467304625199215
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 0,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": -0.12409638554216867,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 1,
+  "headroom": -0.09285714285714297,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 2,
+  "headroom": 0.10227272727272729,
+  "llm_skill": 0.0,
+  "expert": -0.12028301886792449,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 3,
+  "headroom": 0.012195121951219523,
+  "llm_skill": -0.04507710557532631,
+  "expert": -0.17556346381969157,
+  "knowledge_tuned": 0.01660735468564644
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 4,
+  "headroom": 0.023364485981308247,
+  "llm_skill": 0.0,
+  "expert": -0.1558044806517312,
+  "knowledge_tuned": -0.03665987780040731
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 5,
+  "headroom": 0.14473684210526305,
+  "llm_skill": 0.012585812356979422,
+  "expert": -0.12356979405034318,
+  "knowledge_tuned": 0.012585812356979422
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 6,
+  "headroom": -0.007299270072992803,
+  "llm_skill": 0.04720496894409948,
+  "expert": -0.06956521739130436,
+  "knowledge_tuned": 0.0037267080745342148
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 7,
+  "headroom": 0.030303030303030276,
+  "llm_skill": 0.0,
+  "expert": -0.15440289505428223,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 8,
+  "headroom": 0.06293706293706292,
+  "llm_skill": -0.03780487804878042,
+  "expert": -0.2256097560975609,
+  "knowledge_tuned": -0.03780487804878042
+ },
+ {
+  "objective": "typemiss",
+  "scene": "S4_novel_task",
+  "seed": 9,
+  "headroom": 0.05468749999999989,
+  "llm_skill": 0.030585106382978684,
+  "expert": -0.05851063829787227,
+  "knowledge_tuned": 0.030585106382978684
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 0,
+  "headroom": 0.08000000000000007,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 1,
+  "headroom": 0.10000000000000009,
+  "llm_skill": 0.0,
+  "expert": -0.2383720930232559,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 2,
+  "headroom": 0.16666666666666663,
+  "llm_skill": 0.0,
+  "expert": -0.27972027972027974,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 3,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 4,
+  "headroom": 0.0,
+  "llm_skill": -0.06993006993006987,
+  "expert": 0.0,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 5,
+  "headroom": 0.0,
+  "llm_skill": -0.07368421052631581,
+  "expert": -0.2789473684210526,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 6,
+  "headroom": 0.22727272727272718,
+  "llm_skill": 0.0,
+  "expert": -0.1359223300970873,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 7,
+  "headroom": 0.34615384615384603,
+  "llm_skill": 0.0,
+  "expert": -0.23463687150837995,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 8,
+  "headroom": 0.13636363636363635,
+  "llm_skill": 0.0,
+  "expert": -0.014492753623188356,
+  "knowledge_tuned": 0.0
+ },
+ {
+  "objective": "typemiss",
+  "scene": "baseline",
+  "seed": 9,
+  "headroom": 0.0,
+  "llm_skill": 0.0,
+  "expert": 0.013245033112582735,
+  "knowledge_tuned": 0.0
+ }
+]

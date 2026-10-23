@@ -1,0 +1,31 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "TelemetryRecord",
+ "type": "object",
+ "required": [
+  "costs"
+ ],
+ "properties": {
+  "costs": {
+   "type": "array",
+   "items": {
+    "type": "number"
+   }
+  },
+  "reference_windows": {
+   "type": "integer"
+  },
+  "h": {
+   "type": "number"
+  },
+  "k": {
+   "type": "number"
+  },
+  "declared_change_at": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  }
+ }
+}

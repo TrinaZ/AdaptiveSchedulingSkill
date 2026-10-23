@@ -1,0 +1,722 @@
+[
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 0,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 0,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 1,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 1,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 2,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 2,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 3,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 3,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 4,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.0005697667980658627
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 4,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 5,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 5,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 6,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 6,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 7,
+  "leaky": true,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D1",
+  "tier": "distributional",
+  "seed": 7,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 0,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01631140451191382
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 0,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 1,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.019872798361177613
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 1,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 2,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.013680153480474466
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 2,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 3,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01598236515390772
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 3,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 4,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.02062827444881521
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 4,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 5,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01904677922085607
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 5,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 6,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.019341088255513617
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 6,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 7,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01673200556613308
+ },
+ {
+  "scene": "D2",
+  "tier": "distributional",
+  "seed": 7,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 0,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.016109709897825786
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 0,
+  "leaky": false,
+  "code": "def priority(task): return (0.7568647445689175 if task.task_type == 'alignment' else 1.8947639800916452) / max(task.estimated_runtime, 1e-6)",
+  "bb": false,
+  "rel": 0.039315117688645485
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 1,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.012041195319054454
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 1,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 2,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.006845967001293585
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 2,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 3,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01077004133718662
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 3,
+  "leaky": false,
+  "code": "def priority(task): return task.weight / max(task.estimated_runtime, 1e-6) + 0.6921904477844102 * task.weight / max(task.deadline - task.estimated_runtime, 0.1)",
+  "bb": false,
+  "rel": 0.04283752369017546
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 4,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01069523831772834
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 4,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 5,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.012817525077581715
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 5,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 6,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.010765264486985449
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 6,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 7,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.015147338837654178
+ },
+ {
+  "scene": "S1",
+  "tier": "structural",
+  "seed": 7,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 0,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.01076499476194226
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 0,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 1,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.007937692921341277
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 1,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 2,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.005783772722216307
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 2,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 3,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.00799203900872758
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 3,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 4,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.0072528083680528654
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 4,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 5,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.008676810756815478
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 5,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 6,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.007094766669215713
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 6,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 7,
+  "leaky": true,
+  "code": "def priority(task): return task.runtime * task.weight",
+  "bb": true,
+  "rel": -0.006512732584021852
+ },
+ {
+  "scene": "S2",
+  "tier": "structural",
+  "seed": 7,
+  "leaky": false,
+  "code": "\ndef priority(task):\n    return task.estimated_runtime\n",
+  "bb": false,
+  "rel": 0.0
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 0,
+  "leaky": true,
+  "code": "def priority(task): return 0.6270633417015893 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5349169823879122 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9701727242196051 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.023307705436264037
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 0,
+  "leaky": false,
+  "code": "def priority(task): return 0.6270633417015893 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5349169823879122 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9701727242196051 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.023307705436264037
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 1,
+  "leaky": true,
+  "code": "def priority(task): return 0.8234507834728105 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5996539031080531 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.5773851655245116 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.020426762313136004
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 1,
+  "leaky": false,
+  "code": "def priority(task): return 0.8234507834728105 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5996539031080531 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.5773851655245116 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.020426762313136004
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 2,
+  "leaky": true,
+  "code": "def priority(task): return (task.weight ** 1.4406774845354333) / max(task.estimated_runtime ** 1.4071697210566516, 1e-6)",
+  "bb": true,
+  "rel": -0.00034227613563642123
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 2,
+  "leaky": false,
+  "code": "def priority(task): return (task.weight ** 1.4406774845354333) / max(task.estimated_runtime ** 1.4071697210566516, 1e-6)",
+  "bb": true,
+  "rel": -0.00034227613563642123
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 3,
+  "leaky": true,
+  "code": "def priority(task): return 0.6310377005273428 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5687773355553707 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9598272451180548 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.026487844236996683
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 3,
+  "leaky": false,
+  "code": "def priority(task): return 0.6310377005273428 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5687773355553707 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9598272451180548 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.026487844236996683
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 4,
+  "leaky": true,
+  "code": "def priority(task): return 0.7436267589379694 * task.weight / max(task.estimated_runtime, 1e-6) + 0.6181867713755389 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.7118752332030016 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.020905194204028588
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 4,
+  "leaky": false,
+  "code": "def priority(task): return 0.7436267589379694 * task.weight / max(task.estimated_runtime, 1e-6) + 0.6181867713755389 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.7118752332030016 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.020905194204028588
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 5,
+  "leaky": true,
+  "code": "def priority(task): return 0.730629241193416 * task.weight / max(task.estimated_runtime, 1e-6) + 0.6957709619727552 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9220083253284564 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.023456982206718657
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 5,
+  "leaky": false,
+  "code": "def priority(task): return 0.730629241193416 * task.weight / max(task.estimated_runtime, 1e-6) + 0.6957709619727552 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.9220083253284564 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.023456982206718657
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 6,
+  "leaky": true,
+  "code": "def priority(task): return 0.6080237913746238 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5028613200375306 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.8989800774151023 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.024735661835321388
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 6,
+  "leaky": false,
+  "code": "def priority(task): return 0.6080237913746238 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5028613200375306 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.8989800774151023 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.024735661835321388
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 7,
+  "leaky": true,
+  "code": "def priority(task): return 0.691000118104267 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5013120700113803 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.813664290060633 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.024818229042041007
+ },
+ {
+  "scene": "Sem1",
+  "tier": "semantic",
+  "seed": 7,
+  "leaky": false,
+  "code": "def priority(task): return 0.691000118104267 * task.weight / max(task.estimated_runtime, 1e-6) + 0.5013120700113803 * task.weight / max(task.deadline - task.estimated_runtime, 0.1) + 0.813664290060633 / max(task.resource_need, 1.0)",
+  "bb": true,
+  "rel": -0.024818229042041007
+ }
+]

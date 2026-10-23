@@ -1,0 +1,1 @@
+{"pre": {"scene": "baseline", "objective": "wflow"}, "post": {"scene": "baseline", "objective": "tard"}, "seed": 4, "windows_pre": 40, "windows_post": 20, "n_val": 200}

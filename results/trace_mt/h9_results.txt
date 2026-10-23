@@ -1,0 +1,23 @@
+generator                   n   BB%    rel%  gated%  dep_t%  viol% viol_t% dep_eb% viol_eb%
+knowledge                 120    31     3.9     2.4      42   11.7     5.0      27      0.8
+knowledge_tuned           120    31     3.5     2.3      44   12.5     5.0      28      0.8
+library                   120     0     5.0     2.4       0    0.0     0.0       0      0.0
+llm_skill                 120    39     2.8     2.0      48   10.8     6.7      28      1.7
+llm_skill@ds-reasoner     120    35     2.9     2.1      49   10.8     6.7      28      0.8
+pool_full                 120    21     5.9     2.4      27    9.2     0.0      25      0.0
+
+per objective, mean rel % (gated):
+  premium  knowledge: +0.3 (+0.2)  knowledge_tuned: +0.3 (+0.2)  library: +0.1 (+0.0)  llm_skill: +0.2 (+0.1)  llm_skill@ds-reasoner: +0.3 (+0.3)  pool_full: +0.1 (+0.0)
+  slo_wait knowledge: +6.2 (+3.2)  knowledge_tuned: +5.4 (+3.2)  library: +7.4 (+3.2)  llm_skill: +4.6 (+2.6)  llm_skill@ds-reasoner: +3.4 (+2.8)  pool_full: +7.9 (+3.2)
+  tard     knowledge: +5.3 (+4.0)  knowledge_tuned: +4.8 (+3.6)  library: +7.5 (+3.9)  llm_skill: +3.4 (+3.2)  llm_skill@ds-reasoner: +5.1 (+3.2)  pool_full: +9.9 (+3.9)
+
+held-out runtime errors (Amendment 1): {'knowledge': 0, 'knowledge_tuned': 0, 'library': 0, 'llm_skill': 0, 'llm_skill@ds-reasoner': 0, 'pool_full': 0}
+
+H8a governance (confirmatory): gated violations <= 5% and ungated > gated
+  knowledge_tuned          ungated  12.5%  gated   5.0%  (<=5%: yes)  McNemar exact one-sided p=0.0176
+  llm_skill                ungated  10.8%  gated   6.7%  (<=5%: NO)  McNemar exact one-sided p=0.133
+  llm_skill@ds-reasoner    ungated  10.8%  gated   6.7%  (<=5%: NO)  McNemar exact one-sided p=0.133
+H8b (standard LLM, two-sided)   llm_skill vs knowledge_tuned [rel]:    n=120 mean -0.74pp median +0.00pp W/T/L 49/41/30 p=0.117
+                                 llm_skill vs knowledge_tuned [rel_t]:  n=120 mean -0.36pp median +0.00pp W/T/L 34/69/17 p=0.0512
+H8c (reasoner, one-sided)        reasoner < knowledge_tuned [rel]:      n=120 mean -0.58pp median +0.00pp W/T/L 46/37/37 p=0.123
+                                 reasoner < knowledge_tuned [rel_t]:    n=120 mean -0.23pp median +0.00pp W/T/L 27/67/26 p=0.449

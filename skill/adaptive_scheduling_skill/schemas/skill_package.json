@@ -1,0 +1,76 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "SkillPackage",
+ "type": "object",
+ "required": [
+  "type",
+  "rule_source",
+  "params",
+  "change_type",
+  "decision",
+  "evidence",
+  "rollback_to",
+  "review_flag",
+  "provenance"
+ ],
+ "properties": {
+  "type": {
+   "const": "SkillPackage"
+  },
+  "rule_name": {
+   "type": "string"
+  },
+  "rule_source": {
+   "type": "string"
+  },
+  "params": {
+   "type": "object"
+  },
+  "change_type": {
+   "enum": [
+    "distributional",
+    "structural",
+    "semantic"
+   ]
+  },
+  "decision": {
+   "enum": [
+    "deploy",
+    "deploy-after-approval",
+    "fallback"
+   ]
+  },
+  "approval": {
+   "enum": [
+    "autonomous",
+    "expert",
+    "human",
+    null
+   ]
+  },
+  "evidence": {
+   "type": "object"
+  },
+  "rollback_to": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "review_flag": {
+   "type": "boolean"
+  },
+  "provenance": {
+   "type": "object"
+  },
+  "version": {
+   "type": "integer"
+  },
+  "previous_version": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  }
+ }
+}

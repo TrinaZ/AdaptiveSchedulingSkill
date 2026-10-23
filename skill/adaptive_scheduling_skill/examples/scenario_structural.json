@@ -1,0 +1,1 @@
+{"pre": {"scene": "baseline", "objective": "slo_wait"}, "post": {"scene": "S2_resource_drop", "objective": "slo_wait"}, "seed": 3, "windows_pre": 40, "windows_post": 20, "n_val": 200}
